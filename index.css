@@ -1,6 +1,15 @@
 html, body {
     height: 100%;
 }
+.bg_navbar{
+  background-color: #000000;
+}
+bg_white{
+  background-color: white;
+}
+.border_below{
+  border-bottom: #fff;
+}
 
 .heading-top{
 	padding-top:12%;
@@ -32,6 +41,10 @@ hr.divider{
 .boxes{
 	height:55%;
 }
+.text_color{
+  color:black;
+
+}
 
 /* --- section two ----*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
@@ -60,6 +73,10 @@ h2 span {
 
 p {
   font-size: 20px;
+}
+a:hover{
+  text-decoration: none;
+  color:grey;
 }
 
 .container-cc {
@@ -107,8 +124,15 @@ p {
   grid-column: 1 / 3;
 }
 
+.options{
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
 
-
+.to_the_right{
+  float:right;
+}
 .bg1 {
   background: url('pic1.jpg');
 }
@@ -174,6 +198,10 @@ a{
 
 .navbar{
   background-color:black;
+
+}
+.navbar_about{
+  background-color: blue;
 }
 .extra-section-one{
   width: 100%;
@@ -189,8 +217,8 @@ hr.extra-divider{
 
 /*--- About Page ---*/
 .extra-section-two{
-  background-color:#327fa8;
-  height:85%;
+  background-color:white;
+  height:100%;
 }
 
 .about-note{
@@ -218,11 +246,12 @@ hr.extra-divider{
 /*---- Contact Page ---*/
 .button-contact{
   padding:3.5%;
+
 }
 
 .extra-section-two-contact{
-  background-color:#327fa8;
-  height:50%;
+  background-color:white;
+  height:60%;
 }
 
 
