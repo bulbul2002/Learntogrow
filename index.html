@@ -15,12 +15,30 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
 
-    <title>Learn To Growed</title>
+
+    <title>Learn To Grow</title>
   </head>
   <body>
     <!-- navbar -->
+    <header class="text-gray-500 bg_navbar  body-font border_below">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+
+          
+        </a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a href="#"class="mr-5 hover:text-white", style="padding-right:50px">Home</a>
+          <a href="about.html"class="mr-5 hover:text-white", style="padding-right:50px">About us</a>
+          <a href="career.html"class="mr-5 hover:text-white", style="padding-right:50px">Careers</a>
+          <a href="contact.html"class="mr-5 hover:text-white", style="padding-right:50px">Contact us</a>
+        </nav>
+
+      </div>
+    </header>
+    <!--navbar ends-->
 
 
    <!-- section-one -->
@@ -28,63 +46,151 @@
    <section class="section-one" id="home">
      <div class="justify-content-center" >
      <div class="heading-top text-center">
-     <h1 class="text-center text-indie">All The Free Resources At Your Finger Tips</h1>
+     <h1 class="text-center text-indie", style="font-size: 30px">All The Free Resources At Your Finger Tips</h1>
      <hr class="divider divider-about my-4">
      </div>
     
      <div class="heading-center">
-     <h1 class="text-center text-indie display-1">Learn To Grow</h1
+     <h1 class="text-center text-indie display-1">Learn To Grow</h1>
    </div>
    </section>
+   <!--section one ends-->
 
   <!-- section two-->
-  <!-- MAIN SECTION --> 
-  <section class="section-two">
-    <div class="container-cc">
-      <div class="bg3">
-        <p>In Today's World, Nothing Can Stop You From Learning And Growing.</p>
-        <p>"Free Education Should Be Everybody's Right."</p>
-      </div>
-
-      <div class="bg1">
-        <h2><i class="fa fa-database"></i></h2>
-        <p> <a class="link-color" href="about.html">Database</a></p>
-      </div>
-
-      <div class="bg2">
-        <<h2><i class="fa fa-github"></i></h2>
-        <p> <a class="link-color" href="about.html">Git & Github</a></p>
-      </div>
-      <div class="bg1">
-        <h2><i class="fa fa-code"></i></h2>
-        <p> <a class="link-color" href="about.html">Programming Languages </a></p>
-      </div>
-      <div class="bg1">
-        <h2><i class="fa fa-desktop"></i></h2>
-        <p> <a class="link-color" href="about.html">Web Development </a></p>
-      </div>
-      <div class="bg2">
-        <h2><i class="fa fa-mobile"></i></h2>
-        <p> <a class="link-color" href="about.html">Mobile Development </a></p>
-      </div>
-      <div class="bg1">
-        <h2><i class="fa fa-user"></i></h2>
-        <p> <a class="link-color" href="about.html">Interview Prep </a></p>
-      </div>
-      <div class="bg1">
-        <h2><i class="fa fa-linode"></i></h2>
-        <p> <a class="link-color" href="about.html">Frameworks </a></p>
-      </div>
-      <div class="bg2">
-        <h2><i class="fa fa-pie-chart"></i></h2>
-        <!--<p> <a class="link-color" href="about.html">Data Science </a></p>-->
-        <p> <a class="link-color" href="#modal-datascience" role="button" class="btn btn-primary" data-toggle="modal">Data Science </a></p>
-      </div>
+  <div class="container-cc">
+    <div class="bg_navbar">
+      <p>In Today's World, Nothing Can Stop You From Learning And Growing.</p>
+      <p>"Free Education Should Be Everybody's Right."</p>
     </div>
-  </section>
+    </div>
+    <!--section two ends-->
+  
+   <!--MAIN SECTION-->   
+   
+<section class=" bg_navbar text-gray-700 body-font", style="width:100%">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-database"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Database</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-github"></i></h2>
+            
+          <h1 href="about.html" class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Git & Github</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-code"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Programming Languages</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-desktop"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Web Developmet</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-mobile"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Mobile Developmet</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-user"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Interview Prep</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-linode"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Frameworks</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3">
+        <div class="h-full bg-gray-200 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <h2><i class="fa fa-pie-chart"></i></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Data Science</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a href="about.html" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> 
+
+<!--MAIN SECTION end-->  
 
 <!-- Modal For DataScience-->
 <!-- Modal -->
+<section>
 <div class="modal fade right" id="modal-datascience" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
     <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
         <div class="modal-content-full-width modal-content ">
@@ -105,43 +211,45 @@
         </div>
     </div>
 </div>
-
-
-
-   <!-- Footer -->
-<section class="section-three">
-<div class="mt-5 pt-5 pb-5 footer">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-5 col-xs-12 about-company text-indie">
-      <h2> <a class="link-color" href="index.html">Learn To Grow </a> </h2>
-      <p class="pr-5 text-white-50"> Your Guide To Resources To Learn Anything For Free </p>
-    </div>
-    <div class="col-lg-3 col-xs-12 links">
-        <ul class="m-0 p-0 links-style">
-          <h5><li><a class="link-color" href="about.html">About Us</a></li></h5>
-          <h5><li><a class="link-color" href="career.html">Careers</a></li></h5>
-          <h5><li><a class="link-color" href="contact.html">Contact Us</a></li></h5>
-        </ul>
-    </div>
-    <div class="col-lg-4 col-xs-12 side-footer">
-      <p> <i class="fa fa-envelope-o mr-3"></i>
-          <a class="link-color" href = "mailto: abc@example.com">info@hsdf.com</a>
-      </p>
-
-        <p class="made-love">Made with <i class="fa fa-heart"></i></p>
-
-
-    </div>
-  </div>
-  <div class="row mt-5">
-    <div class="col copyright">
-      <p class=""><small class="text-white-50">LearnToGrow © 2020. All Rights Reserved.</small></p>
-    </div>
-  </div>
-</div>
-</div>
 </section>
+
+
+  
+   <!-- Footer -->
+   <section class="section-three">
+    <div class="mt-5 pt-5 pb-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company text-indie">
+         <h2> <a class="link-color" href="index.html">Learn To Grow </a> </h2>
+          <p class="pr-5 text-white-50"> Your Guide To Resources To Learn Anything For Free </p>
+        </div>
+        <div class="col-lg-3 col-xs-12 links">
+            <ul class="m-0 p-0 links-style">
+              <h5><li><a class="link-color" href="about.html">About Us</a></li></h5>
+              <h5><li><a class="link-color" href="career.html">Careers</a></li></h5>
+              <h5><li><a class="link-color" href="contact.html">Contact Us</a></li></h5>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-xs-12 side-footer">
+          <p> <i class="fa fa-envelope-o mr-3"></i>
+              <a class="link-color" href = "mailto: abc@example.com">info@hsdf.com</a>
+          </p>
+          
+            <p class="made-love">Made with <i class="fa fa-heart"></i></p>
+    
+    
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class=""><small class="text-white-50">LearnToGrow © 2020. All Rights Reserved.</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
